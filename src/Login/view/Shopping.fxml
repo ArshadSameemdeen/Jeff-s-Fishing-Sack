@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="850.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.view.MainController">
+   <children>
+      <Label layoutX="179.0" layoutY="67.0" text="JFS Online Shopping" textFill="#009fff">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <ToolBar prefHeight="45.0" prefWidth="600.0">
+        <items>
+          <Button mnemonicParsing="false" onAction="#showHomePage" prefHeight="31.0" prefWidth="67.0" text="Back">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font></Button>
+        </items>
+      </ToolBar>
+      <ImageView fitHeight="99.0" fitWidth="134.0" layoutX="73.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@81iCZbXAveL._SL1500_.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="134.0" layoutX="370.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@61D6Yr0axcL._SL1245_.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="134.0" layoutX="58.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@2375739_175242_is.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="134.0" layoutX="373.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@51140989.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="134.0" layoutX="376.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@s-l640.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="134.0" layoutX="66.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Free-Shipping-50pcs-Stainless-Steel-Rolling-Swivel-Snap-Heavy-Duty-Ball-Bearing-Barrel-Swivel-Solid-Rings.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="66.0" layoutY="269.0" text="Fishing Line">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font></Label>
+      <Label layoutX="370.0" layoutY="265.0" text="Hook">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font></Label>
+      <Label layoutX="84.0" layoutY="495.0" text="Reel">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font></Label>
+      <Label layoutX="358.0" layoutY="495.0" text="Fishing Rod">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font></Label>
+      <Label layoutX="74.0" layoutY="688.0" text="Swivel ">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font></Label>
+      <Label layoutX="376.0" layoutY="688.0" text="Sinker">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font></Label>
+      <Button layoutX="197.0" layoutY="268.0" mnemonicParsing="false" onAction="#goFline" prefHeight="31.0" prefWidth="63.0" text="Buy">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="486.0" layoutY="268.0" mnemonicParsing="false" onAction="#goHook" prefHeight="31.0" prefWidth="63.0" text="Buy">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="197.0" layoutY="490.0" mnemonicParsing="false" onAction="#goReel" prefHeight="31.0" prefWidth="63.0" text="Buy">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="486.0" layoutY="490.0" mnemonicParsing="false" onAction="#goRod" prefHeight="31.0" prefWidth="63.0" text="Buy">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="197.0" layoutY="683.0" mnemonicParsing="false" onAction="#goSwivel" prefHeight="31.0" prefWidth="63.0" text="Buy">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="486.0" layoutY="683.0" mnemonicParsing="false" onAction="#goSinker" prefHeight="31.0" prefWidth="63.0" text="Buy">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

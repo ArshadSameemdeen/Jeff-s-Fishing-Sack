@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.view.MainController">
+   <children>
+      <Label layoutX="73.0" layoutY="37.0" text="Buy Fishing Hook" textFill="#ff00ef">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="403.0" text="Hook">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="435.0" text="Rs.421" textFill="#03da27">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutY="95.0" prefWidth="200.0" />
+      <Button layoutX="68.0" layoutY="498.0" mnemonicParsing="false" text="Buy" textFill="#00e404">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="227.0" layoutY="498.0" mnemonicParsing="false" onAction="#goShopping" text="Cancel" textFill="RED">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="247.0" fitWidth="265.0" layoutX="43.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@61D6Yr0axcL._SL1245_.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

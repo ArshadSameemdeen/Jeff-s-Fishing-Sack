@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.view.MainController">
+   <children>
+      <Label layoutX="47.0" layoutY="45.0" text="Buy Fishing Swivel" textFill="#ff00bd">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-12.0" layoutY="90.0" prefHeight="16.0" prefWidth="613.0" />
+      <ImageView fitHeight="247.0" fitWidth="265.0" layoutX="33.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Free-Shipping-50pcs-Stainless-Steel-Rolling-Swivel-Snap-Heavy-Duty-Ball-Bearing-Barrel-Swivel-Solid-Rings.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="66.0" layoutY="371.0" text="Fishing Swivel">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="140.0" layoutY="399.0" text="Rs.318" textFill="#00dd4e">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="62.0" layoutY="511.0" mnemonicParsing="false" text="Buy" textFill="#00e439">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="218.0" layoutY="511.0" mnemonicParsing="false" onAction="#goShopping" text="Cancel" textFill="RED">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <RadioButton layoutX="302.0" layoutY="375.0" mnemonicParsing="false" text="Small">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="391.0" layoutY="375.0" mnemonicParsing="false" text="Medium">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="499.0" layoutY="375.0" mnemonicParsing="false" text="Large">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="66.0" layoutY="403.0" text="Small">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="431.0" text="Medius">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="459.0" text="Large">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="427.0" text="Rs.349" textFill="#06e441">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="455.0" text="Rs.381" textFill="#0ce81e">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

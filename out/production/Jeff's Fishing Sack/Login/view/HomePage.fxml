@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="780.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.view.MainController">
+   <children>
+      <Label layoutX="187.0" layoutY="536.0" text="to get more informations you need to know about ">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <ToolBar prefHeight="45.0" prefWidth="600.0">
+         <items>
+            <SplitMenuButton mnemonicParsing="false" text="Account">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </SplitMenuButton>
+         </items>
+         <padding>
+            <Insets left="485.0" />
+         </padding>
+      </ToolBar>
+      <Label layoutX="141.0" layoutY="65.0" text="Welcome to Jeff's Fishing Sack" textFill="#00d4ff">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="295.0" fitWidth="482.0" layoutX="95.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fishing.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="67.0" layoutY="432.0" text="Enjoy your fishing days, with the best fishing equipments. And JFS is">
+         <font>
+            <Font name="Arial Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="449.0" prefHeight="21.0" prefWidth="514.0" text="the best place in the country for that. Hookup with us to gearup for  ">
+         <font>
+            <Font name="Arial Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="470.0" text="your fishing experience.">
+         <font>
+            <Font name="Arial Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="67.0" layoutY="530.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="112.0" text="Contact us">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="67.0" layoutY="570.0" text="fishing and Jeff's Fishing Sack.">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="634.0" text="CLICK HERE to start your shopping" textFill="RED">
+         <font>
+            <Font name="Tahoma Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="263.0" layoutY="669.0" mnemonicParsing="false" onAction="#goShopping" text="SHOP" textFill="RED">
+         <font>
+            <Font name="Tahoma Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
